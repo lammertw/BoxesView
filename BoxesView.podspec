@@ -1,25 +1,14 @@
-#
-# Be sure to run `pod lib lint BoxesView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "BoxesView"
   s.version          = "0.1.0"
   s.summary          = "A UIView layed out in boxes"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "BoxesView is a UIView that lays out subviews as boxes, much like a simplified version of a UICollectionView"
+  s.description      = <<-DESC
+  BoxesView is a UIView that lays out subviews as boxes, much like a simplified version of a UICollectionView
+                       DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BoxesView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/lammertw/BoxesView"
+  s.screenshots     = "http://imgur.com/D7IqjMW", "http://imgur.com/wuWclAX"
   s.license          = 'MIT'
   s.author           = { "Lammert Westerhoff" => "westerhoff@gmail.com" }
   s.source           = { :git => "https://github.com/lammertw/BoxesView.git", :tag => s.version.to_s }
