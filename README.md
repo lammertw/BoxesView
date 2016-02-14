@@ -4,8 +4,8 @@ BoxesView is a UIView for iOS that lays out subviews as boxes, much like a simpl
 
 It completely layed out using auto layout constraints and therefore fits in modern apps. It's a simplified version of a `UICollectionView` that doesn't need any delegate or data source. You just configure the number of columns you want and set the views that you want to be displayed in boxes.
 
-![Screenshot 1](http://imgur.com/D7IqjMW, "Example of BoxesView")
-![Screenshot 2](http://imgur.com/wuWclAX, "Example 2 of BoxesView")
+![Screenshot 1](http://i.imgur.com/D7IqjMW.png, "Example of BoxesView")
+![Screenshot 2](http://i.imgur.com/wuWclAX.png, "Example 2 of BoxesView")
 
 [![Version](https://img.shields.io/cocoapods/v/BoxesView.svg?style=flat)](http://cocoapods.org/pods/BoxesView)
 [![License](https://img.shields.io/cocoapods/l/BoxesView.svg?style=flat)](http://cocoapods.org/pods/BoxesView)

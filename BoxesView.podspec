@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/lammertw/BoxesView"
-  s.screenshots     = "http://imgur.com/D7IqjMW", "http://imgur.com/wuWclAX"
+  s.screenshots     = "http://i.imgur.com/D7IqjMW.png", "http://i.imgur.com/wuWclAX.png"
   s.license          = 'MIT'
   s.author           = { "Lammert Westerhoff" => "westerhoff@gmail.com" }
   s.source           = { :git => "https://github.com/lammertw/BoxesView.git", :tag => s.version.to_s }
