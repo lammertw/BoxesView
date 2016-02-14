@@ -25,8 +25,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction private func recreateBoxes() {
-        boxesView.rowHeight = fixedHeightSwitch.on ? 40 : 0
-        photosBoxesView.rowHeight = fixedHeightSwitch.on ? 60 : 0
+        boxesView.rowHeight = fixedHeightSwitch.on ? 40 : -1
+        photosBoxesView.rowHeight = fixedHeightSwitch.on ? 60 : -1
 
         boxesView.boxes = [
             colorView(.greenColor(), height: 20),

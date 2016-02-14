@@ -16,7 +16,7 @@ public class BoxesView: UIView {
             layoutBoxes()
         }
     }
-    @IBInspectable public var rowHeight: Float = 0 {
+    @IBInspectable public var rowHeight: Float = -1 {
         didSet {
             layoutBoxes()
         }
@@ -46,7 +46,7 @@ public class BoxesView: UIView {
             row.snp_makeConstraints { make in
                 make.left.equalTo(self)
                 make.right.equalTo(self)
-                if rowHeight > 0 {
+                if rowHeight >= 0 {
                     make.height.equalTo(rowHeight)
                 }
 
