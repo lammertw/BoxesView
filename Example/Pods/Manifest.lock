@@ -1,0 +1,19 @@
+PODS:
+  - BoxesView (0.1.0):
+    - SnapKit
+  - SnapKit (0.19.1)
+
+DEPENDENCIES:
+  - BoxesView (from `../`)
+
+EXTERNAL SOURCES:
+  BoxesView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BoxesView: d84d0db01fccf9ea390722c32a045632bb6d3159
+  SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
+
+PODFILE CHECKSUM: e12e9efffa094e414cd4f9bdaa26d1ec7f9348c5
+
+COCOAPODS: 1.0.0.beta.3

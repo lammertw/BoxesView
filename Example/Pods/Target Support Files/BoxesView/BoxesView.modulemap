@@ -1,0 +1,6 @@
+framework module BoxesView {
+  umbrella header "BoxesView-umbrella.h"
+
+  export *
+  module * { export * }
+}

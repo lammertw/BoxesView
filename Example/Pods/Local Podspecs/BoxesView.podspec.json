@@ -1,0 +1,30 @@
+{
+  "name": "BoxesView",
+  "version": "0.1.0",
+  "summary": "A UIView layed out in boxes",
+  "description": "BoxesView is a UIView that lays out subviews as boxes, much like a simplified version of a UICollectionView",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BoxesView",
+  "license": "MIT",
+  "authors": {
+    "Lammert Westerhoff": "westerhoff@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BoxesView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "BoxesView": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
+}

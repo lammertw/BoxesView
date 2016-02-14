@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'BoxesView_Example', :exclusive => true do
+target 'BoxesView_Example' do
   pod 'BoxesView', :path => '../'
 end
 
-target 'BoxesView_Tests', :exclusive => true do
+target 'BoxesView_Tests' do
   pod 'BoxesView', :path => '../'
 
   

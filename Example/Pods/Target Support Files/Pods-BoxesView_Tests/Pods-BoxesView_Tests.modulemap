@@ -1,0 +1,6 @@
+framework module Pods_BoxesView_Tests {
+  umbrella header "Pods-BoxesView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
