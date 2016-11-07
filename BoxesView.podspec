@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BoxesView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A UIView layed out in boxes"
 
   s.description      = <<-DESC
@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'SnapKit'
+  s.dependency 'SnapKit', '0.22.0'
 end
